@@ -1,0 +1,71 @@
+Looking in links: https://download.openmmlab.com/mmcv/dist/cpu/torch2.5.0/index.html
+Collecting mmcv
+  Downloading mmcv-2.2.0.tar.gz (479 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting addict (from mmcv)
+  Downloading addict-2.4.0-py3-none-any.whl.metadata (1.0 kB)
+Collecting mmengine>=0.3.0 (from mmcv)
+  Downloading mmengine-0.10.5-py3-none-any.whl.metadata (20 kB)
+Requirement already satisfied: numpy in c:\users\micha\appdata\local\programs\python\python310\lib\site-packages (from mmcv) (2.2.0)
+Requirement already satisfied: packaging in c:\users\micha\appdata\local\programs\python\python310\lib\site-packages (from mmcv) (24.2)
+Requirement already satisfied: Pillow in c:\users\micha\appdata\local\programs\python\python310\lib\site-packages (from mmcv) (9.5.0)
+Requirement already satisfied: pyyaml in c:\users\micha\appdata\local\programs\python\python310\lib\site-packages (from mmcv) (6.0.2)
+Collecting regex (from mmcv)
+  Downloading regex-2024.11.6-cp310-cp310-win_amd64.whl.metadata (41 kB)
+Collecting yapf (from mmcv)
+  Downloading yapf-0.43.0-py3-none-any.whl.metadata (46 kB)
+Collecting opencv-python>=3 (from mmcv)
+  Using cached opencv_python-4.10.0.84-cp37-abi3-win_amd64.whl.metadata (20 kB)
+Collecting matplotlib (from mmengine>=0.3.0->mmcv)
+  Downloading matplotlib-3.9.3-cp310-cp310-win_amd64.whl.metadata (11 kB)
+Requirement already satisfied: rich in c:\users\micha\appdata\local\programs\python\python310\lib\site-packages (from mmengine>=0.3.0->mmcv) (13.4.2)
+Collecting termcolor (from mmengine>=0.3.0->mmcv)
+  Using cached termcolor-2.5.0-py3-none-any.whl.metadata (6.1 kB)
+Collecting platformdirs>=3.5.1 (from yapf->mmcv)
+  Using cached platformdirs-4.3.6-py3-none-any.whl.metadata (11 kB)
+Collecting tomli>=2.0.1 (from yapf->mmcv)
+  Downloading tomli-2.2.1-py3-none-any.whl.metadata (10 kB)
+Collecting contourpy>=1.0.1 (from matplotlib->mmengine>=0.3.0->mmcv)
+  Downloading contourpy-1.3.1-cp310-cp310-win_amd64.whl.metadata (5.4 kB)
+Collecting cycler>=0.10 (from matplotlib->mmengine>=0.3.0->mmcv)
+  Using cached cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
+Collecting fonttools>=4.22.0 (from matplotlib->mmengine>=0.3.0->mmcv)
+  Downloading fonttools-4.55.2-cp310-cp310-win_amd64.whl.metadata (168 kB)
+Collecting kiwisolver>=1.3.1 (from matplotlib->mmengine>=0.3.0->mmcv)
+  Downloading kiwisolver-1.4.7-cp310-cp310-win_amd64.whl.metadata (6.4 kB)
+Collecting pyparsing>=2.3.1 (from matplotlib->mmengine>=0.3.0->mmcv)
+  Using cached pyparsing-3.2.0-py3-none-any.whl.metadata (5.0 kB)
+Requirement already satisfied: python-dateutil>=2.7 in c:\users\micha\appdata\local\programs\python\python310\lib\site-packages (from matplotlib->mmengine>=0.3.0->mmcv) (2.9.0.post0)
+Requirement already satisfied: markdown-it-py>=2.2.0 in c:\users\micha\appdata\local\programs\python\python310\lib\site-packages (from rich->mmengine>=0.3.0->mmcv) (3.0.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in c:\users\micha\appdata\local\programs\python\python310\lib\site-packages (from rich->mmengine>=0.3.0->mmcv) (2.18.0)
+Requirement already satisfied: mdurl~=0.1 in c:\users\micha\appdata\local\programs\python\python310\lib\site-packages (from markdown-it-py>=2.2.0->rich->mmengine>=0.3.0->mmcv) (0.1.2)
+Requirement already satisfied: six>=1.5 in c:\users\micha\appdata\local\programs\python\python310\lib\site-packages (from python-dateutil>=2.7->matplotlib->mmengine>=0.3.0->mmcv) (1.17.0)
+Downloading mmengine-0.10.5-py3-none-any.whl (452 kB)
+Using cached opencv_python-4.10.0.84-cp37-abi3-win_amd64.whl (38.8 MB)
+Downloading addict-2.4.0-py3-none-any.whl (3.8 kB)
+Downloading regex-2024.11.6-cp310-cp310-win_amd64.whl (274 kB)
+Downloading yapf-0.43.0-py3-none-any.whl (256 kB)
+Using cached platformdirs-4.3.6-py3-none-any.whl (18 kB)
+Downloading tomli-2.2.1-py3-none-any.whl (14 kB)
+Downloading matplotlib-3.9.3-cp310-cp310-win_amd64.whl (7.8 MB)
+   ---------------------------------------- 7.8/7.8 MB 11.2 MB/s eta 0:00:00
+Using cached termcolor-2.5.0-py3-none-any.whl (7.8 kB)
+Downloading contourpy-1.3.1-cp310-cp310-win_amd64.whl (218 kB)
+Using cached cycler-0.12.1-py3-none-any.whl (8.3 kB)
+Downloading fonttools-4.55.2-cp310-cp310-win_amd64.whl (2.2 MB)
+   ---------------------------------------- 2.2/2.2 MB 10.4 MB/s eta 0:00:00
+Downloading kiwisolver-1.4.7-cp310-cp310-win_amd64.whl (55 kB)
+Using cached pyparsing-3.2.0-py3-none-any.whl (106 kB)
+Building wheels for collected packages: mmcv
+  Building wheel for mmcv (pyproject.toml): started
+  Building wheel for mmcv (pyproject.toml): finished with status 'done'
+  Created wheel for mmcv: filename=mmcv-2.2.0-py2.py3-none-any.whl size=732075 sha256=edf17b2802d4b4ef4d6b47ca258dcf646f81b7364661aa2e62d2c76687686ce7
+  Stored in directory: c:\users\micha\appdata\local\pip\cache\wheels\dd\50\9f\4e0c45c952bddd25de1cae1b310bd1b20dd69967b5202ca1af
+Successfully built mmcv
+Installing collected packages: addict, tomli, termcolor, regex, pyparsing, platformdirs, opencv-python, kiwisolver, fonttools, cycler, contourpy, yapf, matplotlib, mmengine, mmcv
+Successfully installed addict-2.4.0 contourpy-1.3.1 cycler-0.12.1 fonttools-4.55.2 kiwisolver-1.4.7 matplotlib-3.9.3 mmcv-2.2.0 mmengine-0.10.5 opencv-python-4.10.0.84 platformdirs-4.3.6 pyparsing-3.2.0 regex-2024.11.6 termcolor-2.5.0 tomli-2.2.1 yapf-0.43.0
